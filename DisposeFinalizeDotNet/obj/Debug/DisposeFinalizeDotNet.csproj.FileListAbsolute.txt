@@ -1,0 +1,7 @@
+E:\PRACTICE\DisposeFinalize\DisposeFinalizeDotNet\bin\Debug\DisposeFinalizeDotNet.exe.config
+E:\PRACTICE\DisposeFinalize\DisposeFinalizeDotNet\bin\Debug\DisposeFinalizeDotNet.exe
+E:\PRACTICE\DisposeFinalize\DisposeFinalizeDotNet\bin\Debug\DisposeFinalizeDotNet.pdb
+E:\PRACTICE\DisposeFinalize\DisposeFinalizeDotNet\obj\Debug\DisposeFinalizeDotNet.csprojAssemblyReference.cache
+E:\PRACTICE\DisposeFinalize\DisposeFinalizeDotNet\obj\Debug\DisposeFinalizeDotNet.csproj.CoreCompileInputs.cache
+E:\PRACTICE\DisposeFinalize\DisposeFinalizeDotNet\obj\Debug\DisposeFinalizeDotNet.exe
+E:\PRACTICE\DisposeFinalize\DisposeFinalizeDotNet\obj\Debug\DisposeFinalizeDotNet.pdb

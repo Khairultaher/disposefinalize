@@ -1,0 +1,16 @@
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\bin\Debug\net5.0\DisposeFinalize.exe
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\bin\Debug\net5.0\DisposeFinalize.deps.json
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\bin\Debug\net5.0\DisposeFinalize.runtimeconfig.json
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\bin\Debug\net5.0\DisposeFinalize.runtimeconfig.dev.json
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\bin\Debug\net5.0\DisposeFinalize.dll
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\bin\Debug\net5.0\ref\DisposeFinalize.dll
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\bin\Debug\net5.0\DisposeFinalize.pdb
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\obj\Debug\net5.0\DisposeFinalize.csprojAssemblyReference.cache
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\obj\Debug\net5.0\DisposeFinalize.GeneratedMSBuildEditorConfig.editorconfig
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\obj\Debug\net5.0\DisposeFinalize.AssemblyInfoInputs.cache
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\obj\Debug\net5.0\DisposeFinalize.AssemblyInfo.cs
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\obj\Debug\net5.0\DisposeFinalize.csproj.CoreCompileInputs.cache
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\obj\Debug\net5.0\DisposeFinalize.dll
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\obj\Debug\net5.0\ref\DisposeFinalize.dll
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\obj\Debug\net5.0\DisposeFinalize.pdb
+E:\PRACTICE\DisposeFinalize\DisposeFinalize\obj\Debug\net5.0\DisposeFinalize.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DisposeFinalize/1.0.0": {
+        "runtime": {
+          "DisposeFinalize.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DisposeFinalize/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
