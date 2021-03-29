@@ -12,9 +12,15 @@ namespace DisposeFinalizeDotNet
         {
 
             DisposableTest obj = new DisposableTest();
-            obj.Print("Good Morning...");
-            //obj.Dispose();
+            obj.Print(DisposableTest.objectcount);
+            obj.Dispose();
             obj = null;
+            Console.WriteLine("Assigned null... Object is destructing..");
+
+            DisposableTest obj2 = new DisposableTest();
+            obj2.Print(DisposableTest.objectcount);
+            //obj2.Dispose();
+            obj2 = null;
             Console.WriteLine("Assigned null... Object is destructing..");
 
             Console.ReadLine();
@@ -22,15 +28,16 @@ namespace DisposeFinalizeDotNet
     }
     public class DisposableTest : IDisposable
     {
-        private bool isdisposed = false;
-
+        private bool disposed = false;
+        public static int objectcount = 0;
         public DisposableTest()
         {
+            objectcount += 1;
             Console.WriteLine("DisposableTest object is created..");
         }
-        public void Print(string message)
+        public void Print(int objno)
         {
-            Console.WriteLine("Hello " + message);
+            Console.WriteLine("Unmanaged Resource Count: " + objno.ToString());
         }
         ~DisposableTest()
         {
@@ -42,18 +49,20 @@ namespace DisposeFinalizeDotNet
             Dispose(true);
             GC.SuppressFinalize(this);
         }
-        protected void Dispose(bool dispose)
+        protected void Dispose(bool disposing)
         {
-            if (!isdisposed)
+            if (!disposed)
             {
-                if (dispose)
+                if (disposing)
                 {
-                    // to cleanup managed objects 
+                    // to cleanup managed objects like: _context.Dispose();
                     Console.WriteLine("to cleanup managed objects");
                 }
                 // To cleanup unmanaged resources/objects 
                 Console.WriteLine("To cleanup unmanaged resources/objects");
-                isdisposed = true;
+                objectcount -= 1;
+                Console.WriteLine("Unmanaged Resource Count: " + objectcount.ToString());
+                disposed = true;
             }
         }
     }
